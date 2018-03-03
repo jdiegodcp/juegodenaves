@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include 'config.php';
  ?>
 <!DOCTYPE html>
@@ -10,20 +10,20 @@
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
 </head>
 <body>
 <!-- 	<h3 style="text-align: center;color: White">
-	SpaceY	
+	SpaceY
 	</h3> -->
 <div class="contenedor2" d-flex justify-content-center align-items-center >
  <div class="text-center" style="width:200px">
 	<!-- Main Form -->
 
 		<h3 id="titulo1" >
-		SpaceY	
+		SpaceY
 		</h3>
 	<div>
 		<p id="ingus" >
@@ -76,9 +76,9 @@
 				localStorage.setItem( 'dni', vdni )
 
 			}else{
-				
+
 			}
-			$.ajax({  
+			$.ajax({
 					url: url,
 					type: 'POST',
 					data : data,
@@ -103,7 +103,7 @@
 				})
 			/*
 			var url = urlBase+"api/mi-nena";
-			$.ajax({  
+			$.ajax({
 					url: url,
 					type: 'GET',
 					//data : data,
@@ -126,7 +126,7 @@
 				})
 				*/
 		});
-		
+
 	</script>
 </body>
 </html>

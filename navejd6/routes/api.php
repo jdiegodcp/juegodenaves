@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 */
 
 Route::post('guardar-usuario','Controller@guardarUsuario');
-Route::post('guardar-juego','Controller@guardarJuego'); 
+Route::post('guardar-juego','Controller@guardarJuego');
 Route::get('cargar-puntajes','Controller@cargarPuntajes');
 Route::get('/user', function (Request $request) {
     return $request->user();
