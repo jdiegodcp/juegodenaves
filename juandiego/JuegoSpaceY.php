@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include 'config.php';
  ?>
 <!DOCTYPE html>
@@ -8,15 +8,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript">
 		var urlBase = "<?php echo HOST_API; ?>";
 	</script>
 </head>
 <body>
-	
-	
+
+
 	<div class="contenedor d-flex justify-content-center align-items-center ">
 		<div id="app" >
 		</div>
@@ -28,7 +28,7 @@
 	<script type="text/javascript" src="js/modelo/meteoro.js"></script>
 	<script type="text/javascript" src="js/modelo/bala.js"></script>
 	<script type="text/javascript" src="js/teclado.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/app3.js"></script>
 	<script type="text/javascript">
 
 		// var vjugador = localStorage.getItem("jugador");
@@ -37,7 +37,7 @@
 		// 					// $("#lblNombre").html(jugador);
 		// 					// $("#lblTiempo").html(tiempo);
 
-		
+
 		// $("#formLogin").on("submit",function(evt){
 		// 	evt.preventDefault();
 		// 	var nickname = $("#nickname").val();
@@ -45,7 +45,7 @@
 
 		// 	var url = urlBase+"api/guardar-usuario";
 		// 	var data = {idUsuario:vjugador,score:vtiempo};
-		// 	$.ajax({  
+		// 	$.ajax({
 		// 			url: url,
 		// 			type: 'POST',
 		// 			data : data,
