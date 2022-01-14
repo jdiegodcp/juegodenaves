@@ -1,0 +1,165 @@
+/* Variables */
+
+$primary-font: "Niconne", cursive;
+$primary-color: #333;
+
+body {
+  background-image: url("/img/space4.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+a {
+  color: "Black";
+  text-decoration: none !important;
+}
+td {
+  background-color: skyblue !important;
+}
+th {
+  font-size: 200%;
+  color: White;
+  font-family: $primary-font;
+}
+tr {
+  font-size: 100%;
+  font-family: $primary-font;
+}
+.balitas {
+  width: 15px;
+  height: 25px;
+  transition: all 2s linear;
+  position: absolute;
+  &.desvanece {
+    display: none;
+  }
+  &.final {
+    top: -100px !important;
+    &.desvanece {
+      display: none;
+    }
+  }
+}
+.meteoroout {
+  display: none;
+}
+.contenedor {
+  height: 100vh;
+}
+.contenedor2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smalltext {
+  padding-top: -500px;
+  font-size: 16px;
+  color: white;
+}
+#cuerpoRanking {
+  font-size: 25px;
+}
+#app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#cabeceratabla {
+  background: #106792;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+#naven {
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50px;
+  transition: all 0.3s linear;
+}
+#irlogin {
+  float: right;
+}
+#titulo1 {
+  text-align: center;
+  color: #fff;
+  font-family: $primary-font;
+  font-size: 400%;
+}
+#titulo3 {
+  font-size: 300%;
+  text-align: center;
+  color: White;
+  font-family: $primary-font;
+}
+#titulo4 {
+  font-size: 400%;
+  text-align: center;
+  color: White;
+  font-family: $primary-font;
+}
+#ingus {
+  color: White;
+  font-size: 150%;
+  font-family: $primary-font;
+}
+#lblNombre {
+  font-size: 300%;
+  text-align: center;
+  color: White;
+  font-family: $primary-font;
+  background-color: #0c522e;
+  padding: 15px;
+  border-radius: 25px;
+  border: solid;
+}
+.black-box {
+  background-color: #000;
+}
+#linea1 {
+  font-size: 300%;
+  text-align: center;
+  color: White;
+  font-family: $primary-font;
+}
+#linea2 {
+  color: white;
+  font-size: 200%;
+  font-family: $primary-font;
+}
+.b-line {
+  border-radius: 25px;
+  border: solid;
+  color: white;
+}
+
+#lblTiempo {
+  font-size: 300%;
+  text-align: center;
+  color: White;
+  font-family: $primary-font;
+  background-color: #0c522e;
+  padding: 15px;
+  border-radius: 25px;
+  border: solid;
+}
+#bing {
+  font-size: 150%;
+  color: White;
+  font-family: $primary-font;
+}
+#Botonw {
+  font-size: 150%;
+  font-family: $primary-font;
+}
+
+@media (max-width: 450px) {
+  .table th {
+    font-size: 25px;
+  }
+}
